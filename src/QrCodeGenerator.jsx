@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import QRbackground from "../src/assets/qr-bg.jpg";
+import qrbackground from "../src/assets/qr-bg.jpg";
 
 const QrCodeGenerator = () => {
 
@@ -25,7 +25,7 @@ const QrCodeGenerator = () => {
   return (
     <div 
       className='flex flex-col items-center justify-center min-h-screen bg-cover bg-center p-4' 
-      style={{ backgroundImage: `url(${QRbackground})` }}
+      style={{ backgroundImage: `url(${qrbackground})` }}
     >
         <div className='bg-transparent  shadow-lg rounded-lg p-6 max-w-md w-full text-center sm:w-11/12 sm:p-4 border '>
 
